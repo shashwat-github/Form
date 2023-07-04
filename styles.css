@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+form {
+  display: grid;
+  justify-content: center;
+}
+input {
+  width: 20vw;
+  height: 3vh;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+button {
+  margin-top: 3vh;
+  height: 5vh;
+}
+.tableTitle {
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 3rem;
+  font: bold;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

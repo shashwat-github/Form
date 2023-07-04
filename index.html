@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Student's Detail</h1>
+    <form id="myForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" required />
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" required />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" required />
+
+      <label for="parentsName">Parent's Name:</label>
+      <input type="text" id="parentsName" required />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" required />
+
+      <label for="city">City:</label>
+      <input type="text" id="city" required />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" required />
+
+      <button type="button" onclick="saveFormData()">Submit</button>
+    </form>
+
+    <h2>Student's Data</h2>
+    <table id="formDataTable">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Date of Birth</th>
+          <th>Parent's Name</th>
+          <th>Address</th>
+          <th>City</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody id="formDataBody"></tbody>
+    </table>
+  </body>
+</html>
